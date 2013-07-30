@@ -108,6 +108,7 @@ h1 {
 }
 
 .circle_left {
+	left:0;
 	background-color: #fff;
 }  
 
