@@ -108,10 +108,51 @@ h1 {
 }
 
 .circle_left {
-	left:0;
+	left: 0px;
 	background-color: #fff;
 }  
 
 .circle_right {
     right: 0px;
+}
+
+@media only screen and (max-device-width: 480px) {
+	section {
+		margin: 20px 20px;
+	}
+	
+	section:first-of-type {
+		margin-top: 0px;
+	}
+	
+	.circle {
+		width: 150px;
+		height: 150px;
+		line-height: 150px;
+	}
+	
+	.circle_container {
+		position: relative;
+		height: 190px;
+		width: 98%;
+	}
+	
+    .container {
+		padding: 0 0;
+        width: 300px;
+    }
+	
+	.container img {
+		max-height: 320px;
+	}
+	
+	.content {
+		padding-bottom: 0;
+	}
+	
+	section.bottom {
+		position: static;
+		margin: 20px 20px;
+		width: auto;
+	}
 }
